@@ -33,7 +33,7 @@ body, html {
 
 @media only screen and (max-width: 600px) {
   .head{
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -308,3 +308,16 @@ p {margin: .75em 0 1.5em;}
 .returnToProfile a, .returnToProfile a:visited {color: #ddd;}
 .returnToProfile a:hover {color: #fff;}
 
+.content3{
+	padding: 5px;
+	text-align: center;
+}
+
+.content3 h2{
+	font-family: 'Montserrat', sans-serif;
+}
+.content3 p{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 20px 0 20px;
+	text-align: center;
+}
