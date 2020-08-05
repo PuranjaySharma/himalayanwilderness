@@ -39,54 +39,6 @@ body, html {
   }
 }
 
-.nav{
-	float: left;
-	position: absolute;
-  	top: 24px;
-  	left: 16px;
-
-}
-.nav ul li{
-	list-style: none;
-	display: inline-block;
-	padding: 5px;
-	font-size: 16px;
-}
-.nav ul li a{
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	color: #fff;
-}
-
-@media only screen and (max-width: 900px) {
-  .nav ul li a{
-	display: none;
-  }
-}
-
-.nav_right{
-	float: right;
-	position: absolute;
-  	top: 24px;
-  	right: 56px;
-  	padding: 10px;
-  	font-family: 'Montserrat', sans-serif;
-}
-
-.icon{
-	display: inline-block;
-	padding: 10px;
-}
-.icon img{
-	height: 14px;
-	width: 14px;
-}
-
-@media only screen and (max-width: 900px) {
-  .icon img{
-    display: none;
-  }
-}
 .tag_line{
 	padding: 10px;
 	position: relative;
@@ -129,27 +81,6 @@ button:hover {
     background-color: #fff;
 }
 
-.content{
-	background-image:linear-gradient(
-    rgba(0, 0, 0, .6),
-    rgba(0, 0, 0, .1)),url("img/pic.jpg");
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	height: 300px;
-	width: 100%;
-	text-align: center;
-	
-}
-.cont_btn q{
-	color: #fff;
-	font-size: 30px;
-	font-family: 'Montserrat', sans-serif;
-	padding: 20px;
-}
-
-.cont_btn{
-	padding: 80px 0;
-}
 
 .container{
 
@@ -219,7 +150,6 @@ button:hover {
 	margin: 5px;
 	float: left;
 	transition: box-shadow .3s;
-	border: 1px solid #ccc;
  	background: #fff;
  	text-align: center;
  	line-height: 2em;
